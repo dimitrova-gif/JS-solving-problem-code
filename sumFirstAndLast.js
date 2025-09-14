@@ -1,28 +1,9 @@
-// function sumFirstAndLast(arr){
-// let first = arr[0];
-// let last = arr[arr.length - 1];
-
-// let firstNum = Number(first);
-// let lastNum = Number(last);
-// console.log(firstNum + lastNum);
-
-// }
-
-// sumFirstAndLast(['20', '30', '40']);
-
-
-
-
-function sumFirstAndLast(arr){
-arr = arr.map(Number);
-
-let first = arr.shift();
-let last = arr.pop();
-
-console.log(first + last);
-
+function sum(input){
+let num1 = input[0];
+let num2 = input[input.length-1];
+  console.log(num1 + num2);
+  
 }
 
-sumFirstAndLast(['20', '30', '40']);
 
-['20', '30', '40']
+sum([20, 30, 40]);
